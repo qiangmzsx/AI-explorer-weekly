@@ -4,7 +4,7 @@
 
 https://www.explainthis.io/zh-hans/chatgpt
 
-![ChatGPT 指令大全](../../../weekly/2023/04/114421.png)
+![ChatGPT 指令大全](../../../assets/images/2023/04/114421.png)
 
 
 ## 2. Meta发布的SAM模型
