@@ -25,9 +25,7 @@
         auto2top: true,
         // 侧边栏
         loadSidebar: true,
-        alias: {
-            '/.*/_sidebar.md': '/_sidebar.md'
-        },
+       
         subMaxLevel: 4,
         // 自动为每个页面增加标题
         // autoHeader: true,
@@ -123,6 +121,26 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
 
 <script src="//cdn.jsdelivr.net/npm/crypto-js@4.1.1/crypto-js.js"></script>
+<script>
 
+    function NewGitalk() {
+        // 除去param
+        const hashPath = location.hash.indexOf("?id=") === -1 ? location.hash : location.hash.substring(0, location.hash.indexOf("?id="));
+        const hrefPath = location.hash.indexOf("?id=") === -1 ? location.href : location.href.substring(0, location.href.indexOf("?id="));
+        // id 50字符限制
+        const md5Id = CryptoJS.MD5(hashPath).toString();
+
+        return new Gitalk({
+            clientID: '688a9ffb258f70447d3d',
+            clientSecret: '3fa7bfb63072b05ed25a2c2d9e6a3c23b2584471',
+            repo: 'AI-explorer-weekly',
+            owner: 'qiangmzsx',
+            admin: ['qiangmzsx'],
+            id: md5Id,
+            body: hrefPath,
+            distractionFreeMode: false
+        });
+    }
+</script>
 </body>
 </html>
