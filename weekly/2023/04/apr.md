@@ -64,5 +64,7 @@ AutoGPT 也不是完美的。它目前存在一个主要的缺点，就是消耗
 2. AutoGPT使用更少的token即可完成任务。最优解决方案是GPT有了自主性，不需要人工接入了。
 
 AutoGPT当前的意义是让我们看到了人工智能在未来可以做到什么程度。
+
 AutoGPT https://github.com/Torantulino/Auto-GPT
+
 最近推出在线版本 https://autogptjs.com/

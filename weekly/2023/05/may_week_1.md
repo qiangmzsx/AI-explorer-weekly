@@ -46,6 +46,7 @@
 
 Mojo 结合了 Python 的易用性和 C 语言的性能，解锁了 AI 硬件无与伦比的可编程性和 AI 模型的可扩展性。 另外，它比 Python 快 35000 倍。
 Modular AI 这样的做法也可以让开发者迅速熟悉 Mojo，目前 Mojo 已经支持 Python 的许多核心特性，包括 async/await、错误处理、Variadic 等，但是 Mojo 仍然处于非常早期的开发阶段，Mojo 目前甚至还不支持类。Modular AI 未来还将提供一个迁移工具，为想把 Python 代码转移到 Mojo 的开发者提供非常好的兼容性。
+
 [Mojo](https://www.modular.com/mojo)
 
 
